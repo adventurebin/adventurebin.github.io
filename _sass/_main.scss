@@ -1,15 +1,20 @@
 // Define defaults for each variable.
 
-$base-font-family: "Playfair Display", serif;
-$base-font-size:   16px !default;
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-family-serif: 'PT Serif', serif;
+$base-font-family-san-serif: 'Open Sans', sans-serif;
+$base-font-family-logo: 'Montserrat Alternates', sans-serif;
+
+$base-font-size: 16px !default;
+$base-font-size-logo: 48px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$text-color:       #383838 !default;
+$background-color: #f7f7f7 !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
@@ -39,5 +44,6 @@ $on-laptop:        800px !default;
 @import
   "base",
   "layout",
+  "typography",
   "syntax-highlighting"
 ;

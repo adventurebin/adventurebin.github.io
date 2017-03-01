@@ -25,6 +25,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis lacus si
 
 Donec sodales diam vitae lacus facilisis bibendum. Pellentesque quis felis suscipit mi commodo sodales in quis dolor. Nunc massa eros, condimentum eu magna eget, semper venenatis lacus. Ut nec vehicula urna. Phasellus ultricies mi id odio eleifend auctor. Nullam fringilla elit sit amet lorem ultrices, in pellentesque eros dignissim.
 
+
+
+
+{% include image.html file="kitten.jpg" alt="I am some alt text" caption="This is thex Jekyll logo." %}
+
+
+
 ### Headline 3
 
 Fusce non lectus eget lectus porttitor gravida. Ut eget mauris condimentum, pulvinar libero id, accumsan velit. Nulla pellentesque in neque eget eleifend.

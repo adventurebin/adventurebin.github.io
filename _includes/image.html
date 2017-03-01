@@ -1,0 +1,6 @@
+<figure class="inline-large">
+   <a href="{{ include.url | default: "#" }}">
+   <img src="{{site.imgpath}}{{ include.file }}" style="max-width: {{ include.max-width | default: "400px" }};"
+      alt="{{ include.alt }}"/></a>
+   <figcaption>{{ include.caption }}</figcaption>
+</figure>
