@@ -14,7 +14,11 @@ $ jekyll serve
 # Auto-regeneration: enabled. Use `--no-watch` to disable.
 ```
 
-Having issues - try ```rvm reload```
+Having issues - try:
+
+```rvm reload```
+```rvm use ruby-2.2.0```
+
 
 #### Something
 To preview your site with drafts, simply run ```jekyll serve --drafts``` or ```jekyll build --drafts```. Each will be assigned the value modification time of the draft file for its date, and thus you will see currently edited drafts as the latest posts.
